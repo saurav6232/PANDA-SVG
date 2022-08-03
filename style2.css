@@ -1,0 +1,56 @@
+body{
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background:bisque;
+    animation: bg 2s infinite ease-out;
+
+}
+
+@keyframes bg {
+  0% {
+    background: #05acd7;
+  }
+
+  10% {
+    background: #1063c3;
+  }
+
+  20% {
+    background: #fe80d7;
+  }
+
+  30% {
+    background: #fe2193;
+  }
+
+  40% {
+    background: #f62038;
+  }
+
+  50% {
+    background: #f38051;
+  }
+
+  60% {
+    background: #f4d84d;
+  }
+
+  70% {
+    background: #e0eb68;
+  }
+
+  80% {
+    background: #7cc04b;
+  }
+
+  90% {
+    background: #1d0b85;
+  }
+
+  100% {
+    background: #00e1f3;
+  }
+}
